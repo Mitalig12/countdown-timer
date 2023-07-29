@@ -1,0 +1,62 @@
+video{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.video-wrapper {
+    border: 2px solid #000;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer-container {
+  text-align: center;
+}
+
+.timer {
+    position: relative;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 25px;
+    border: 5px solid #000000;
+    border-radius: 15px;
+    background-color: #f3efef;
+
+}
+
+.timer-buttons {
+    position: relative;
+    margin-top: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ed7207;
+  border: 2px solid #fdf8f8;
+  color: #060000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+  font-weight: bold;
+  color: white
+}
